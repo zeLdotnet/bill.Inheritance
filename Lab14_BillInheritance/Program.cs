@@ -10,9 +10,7 @@ namespace Lab14_BillInheritance
             TippableBill tipBill = new TippableBill(8.5, 0.06, 2);
 
             Pay(bill);
-            Pay(tipBill);
-
-            
+            Pay(tipBill);  
         }
 
         static void Pay(Bill bill)
